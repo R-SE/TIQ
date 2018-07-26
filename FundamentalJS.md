@@ -55,11 +55,15 @@ console.log(a); // 10
 - Takeaway: best practice is to declare at the top of their scopes, to avoid confusion
   
 4. What is type coercion?
--
-5. Explain the keyword `this`
-6. Explain the difference between `let`, `const`, and `var`
-7. What is an IIFE?
-8. Explain the event loop
-9.  Explain event delegation
-10. Explain functions as first-class objects
-11. 
+- Type coercion or typecasting is the process of converting a value from one type to another. The JS parser performs implicit type coercion in a few cases, such as when using operators like `==` (loose equality), `+`, `||`, `!!`, or being triggered by the surrounding context like `if (value) {...}`. In most cases, it's best to eschew implicit type coercion in order to avoid confusion, unless it's readable. Instead, use explicit type coercion by writing the appropriate code like `Number(value)` or `Boolean(value)`.
+- There are only three types of type coercion: to string, to boolean, and to number.
+- Converting to string is straightforward as expected
+- When converting to boolean, there are only 6 falsy values; everything else is truthy
+- 
+1. Explain the keyword `this`
+2. Explain the difference between `let`, `const`, and `var`
+3. What is an IIFE?
+4. Explain the event loop
+5.  Explain event delegation
+6.  Explain functions as first-class objects
+7.  
