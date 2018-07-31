@@ -2,7 +2,7 @@
 
 -  a development practice where developers push code into a shared repository frequently, and upon passing automated build tests, releasing the build to production
 -  cycle of commit, deploy, test
--  importance of CI -> mention LinkedIn talk
+-  importance of CI/CD -> mention LinkedIn talk
   -  long integrations are exhausting
   -  more practice deploying makes deployment more enjoyable and easy; low-risk releases
   -  avoid merge hell (monster merges)
@@ -15,3 +15,10 @@
 - automated build and deployment -> tests merges
 - release good builds to production immediately
 - "move fast and break things"
+  
+
+### Popular CI Services
+- Travis CI
+- CircleCI
+- Jenkins
+  
